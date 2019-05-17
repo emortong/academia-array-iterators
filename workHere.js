@@ -10,7 +10,6 @@ let twentyYearOldBillionaires = billionaires.filter(x => {
     };
 });
 
-
 /*
     create a new object with the billionairse year, name and worth rounded to the newarest integer
     {
@@ -20,8 +19,6 @@ let twentyYearOldBillionaires = billionaires.filter(x => {
     }
 */
 
-
-
 let roundedWorth = billionaires.map(x => {
     return {
         year: x.year,
@@ -30,8 +27,6 @@ let roundedWorth = billionaires.map(x => {
     }
 });
 // console.log(roundedWorth);
-
-
 
 /*
     sum the rounded worth of all the billionaires
@@ -65,11 +60,11 @@ let poorest = billionaires.sort((a, b) => {
     make a new array containing the richest and the poorest billionaire
 */
 
-let richAndPoor = null;
+let richAndPoor = [richest,poorest];
 
 module.exports = {
     twentyYearOldBillionaires,
-    roundedWorth,
+    roundedWorth, 
     aggregatedWorth,
     richest,
     poorest,
