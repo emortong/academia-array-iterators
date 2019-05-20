@@ -109,7 +109,7 @@ let iteratorAggregator = (arr) => {
 // console.log(iteratorProjector(people));
 // iteratorProjector2(people);
 // console.log(iteratorFiltering(people));
-console.log(iteratorAggregator(people));
+//console.log(iteratorAggregator(people));/
 
 // ======== chaining methods
 
@@ -126,4 +126,4 @@ let chainMethods = (arr) => {
 	}, 0);
 };
 
-console.log(chainMethods(people));
+//console.log(chainMethods(people)); 
